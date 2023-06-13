@@ -1,12 +1,9 @@
 .image
 {
-
     width:50px;
     height:50px;
     border-radius: 40px;
     margin: 6px 0px 5px 40px;
-    
-
 }
 nav{
     background-color:rgb(220, 126, 11);
@@ -15,24 +12,55 @@ nav{
 }
 .main{
     background-image: url("../../public/Resources/winter.jpg");
-    
-    width:1460px;
+    width:1450px;
     height:750px;
-    background-size: cover;
+
+    
 }
 .navbar{
-    display: flex;
+   
     border:1px solid black;
 }
 .recipes{
-    margin-left:0px;
-    margin-top:60px;
+    margin-left:40px;
+    
     font-size: 20px;
     margin-bottom:10px;
 }
 .topics{
-    margin-left:120px;
-    margin-top:60px;
+    margin-left:102px;
     font-size: 20px;
     margin-bottom:10px;
+}
+.searchbar{
+    width:180px;
+    height:30px;
+    margin-left:1000px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-right:3px;
+    border-color: white;
+    margin-bottom: 10px;
+}
+.firstContainer{
+    display: flex;
+}
+.secondContainer{
+    display: flex;
+}
+.search{
+    width:40px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.loginlogo{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    margin-top:6px;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
