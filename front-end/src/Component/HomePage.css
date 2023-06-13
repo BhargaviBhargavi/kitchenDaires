@@ -5,18 +5,14 @@
     border-radius: 40px;
     margin: 6px 0px 5px 40px;
 }
-nav{
-    background-color:rgb(220, 126, 11);
+.nav{
+    background-color:rgb(220, 164, 11);
     width:100%;
     position: fixed;
+    top:0;
+    left:0;
 }
-.main{
-    background-image: url("../../public/Resources/winter.jpg");
-    width:1450px;
-    height:750px;
 
-    
-}
 .navbar{
    
     border:1px solid black;
@@ -39,7 +35,7 @@ nav{
     margin-top: 15px;
     border-radius: 5px;
     margin-right:3px;
-    border-color: white;
+    border-color:white;
     margin-bottom: 10px;
 }
 .firstContainer{
@@ -63,4 +59,85 @@ nav{
     margin-top:6px;
     margin-left: 50px;
     margin-bottom: 10px;
+}
+.mango{
+    width:1030px;
+    height:550px;
+    margin-top:150px;
+    margin-left:50px;
+    
+}
+
+.imagepart{
+    display:flex;
+
+}
+.textpart{
+    
+    width:260px;
+    height:440px;
+    background-color: rgba(224, 219, 219, 0.418);
+    margin-top:180px;
+    margin-left:30px;
+    padding:20px;
+    line-height: 40px;
+    font-style: italic;
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+.button{
+    width:150px;
+    padding:10px;
+    font-size: 20px;
+    background-color: rgb(255, 123, 0);
+    margin:15px 0px 0px 50px  ;
+}
+
+
+.specialRecipe{
+    width:300px;
+    height:300px;
+    
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.foodImage{
+    width:300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 110px;
+}
+.specialfood{
+    display: flex;
+}
+.specialFood{
+    display: flex;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.foodimage{
+    width:300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.allrecipes{
+    display: flex;
+}
+.allRecipes{
+    display: flex;
+}
+.TrendingNow{
+    display: flex;
+}
+.Trendingnow{
+    display: flex;
 }
