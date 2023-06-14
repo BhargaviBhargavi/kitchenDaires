@@ -24,7 +24,7 @@
     margin-bottom:10px;
 }
 .topics{
-    margin-left:102px;
+    margin-left:99px;
     font-size: 20px;
     margin-bottom:10px;
 }
@@ -57,14 +57,14 @@
     height:50px;
     border-radius:25px;
     margin-top:6px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-bottom: 10px;
 }
 .mango{
-    width:1030px;
+    width:1035px;
     height:550px;
     margin-top:150px;
-    margin-left:50px;
+    margin-left:44px;
     
 }
 
@@ -78,14 +78,13 @@
     height:440px;
     background-color: rgba(224, 219, 219, 0.418);
     margin-top:180px;
-    margin-left:30px;
+    margin-left:20px;
     padding:20px;
     line-height: 40px;
-    font-style: italic;
 }
 p{
     font-size: 20px;
-    font-style: italic;
+    
 }
 .button{
     width:150px;
@@ -106,10 +105,10 @@ p{
     margin-bottom: 20px;
 }
 .foodImage{
-    width:300px;
+    width:307px;
     height: 300px;
-    margin-left: 50px;
-    margin-top: 0px;
+    margin-left: 44px;
+    margin-top: 60px;
     margin-bottom: 110px;
 }
 .specialfood{
@@ -123,9 +122,9 @@ h2{
     margin-top: 30px;
 }
 .foodimage{
-    width:300px;
+    width:307px;
     height: 300px;
-    margin-left: 50px;
+    margin-left: 44px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -140,4 +139,64 @@ h2{
 }
 .Trendingnow{
     display: flex;
+}
+.footerpart{
+    width:100%;
+    height:50%;
+    background-color:rgb(220, 164, 11);
+    margin-top: 70px;
+    /* margin-bottom: 50px; */
+    display: flex;
+}
+.footerimage{
+    width:100px;
+    height: 100px;
+    margin:45px 0px  20px 80px;
+    border-radius: 50px;
+    
+}
+.logopart{
+    width:250px;
+    height: 200px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+}
+.sign{
+    width: 150px;
+    padding: 10px;
+    margin-left: 55px;
+    
+}
+.listpart{
+    margin-top: 58px;
+    margin-left: 200px;
+}
+.types{
+    margin-bottom: 20px;
+}
+.listparts{
+    margin-top: 68px;
+    margin-left: 200px;
+}
+.border{
+    width: 99.89%;
+    border: 1px solid black;
+    background-color:rgb(220, 164, 11);
+    
+
+}
+.followus{
+    background-color:rgb(220, 164, 11);
+    opacity: 0.3;
+    
+}
+.follow{
+    text-align: center;
+}
+.followImg{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 60px;
 }

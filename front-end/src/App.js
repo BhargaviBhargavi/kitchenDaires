@@ -8,10 +8,10 @@ import HomePage from './Component/HomePage';
 function App() {
   return(
     <div className="App">
-           {/* <SignUp/>
-             <Login/>  
+            {/* <SignUp/> */}
+             {/* <Login/>  
            <SignUp/>
-             <Login/>  
+             <Login/>   
             <ForgotPassword/>    <ForgotPassword/>   */}
             <HomePage/>
     </div>
