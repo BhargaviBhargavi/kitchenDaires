@@ -4,7 +4,8 @@ import React from "react";
 // import SignUp from './Component/SignUp';
 // import Login from './Component/Login';
 // import ForgotPassword from './Component/ForgotPassword';
-import HomePage from './Component/HomePage';
+// import HomePage from './Component/HomePage';
+import Homepage from "./Component/Homepage";
 function App() {
   return(
     <div className="App">
@@ -12,8 +13,9 @@ function App() {
              {/* <Login/>  
            <SignUp/>
              <Login/>   
-            <ForgotPassword/>    <ForgotPassword/>   */}
-            <HomePage/>
+            <ForgotPassword/>*/}
+            {/* <HomePage/> */}
+            <Homepage/>
     </div>
   );
 }
