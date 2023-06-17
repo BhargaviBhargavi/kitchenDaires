@@ -120,71 +120,201 @@
    .dropdown:hover .dropdown-content {display: block;} 
    .dropdown:hover .dropdownContent  {display: block;}
   
-  
-   .homeImage{
-        display:flex;
-   }
-   .imageforhome{
-    
-        width: 705px;
-        height: 600px;
-        margin-top: 133px;
-        margin-left: 200px;
-   } 
-   .textpart{
-    
-        width:260px;
-        height:440px;
-        background-color: rgba(224, 219, 219, 0.418);
-        margin-top:190px;
-        margin-left:50px;
-        padding:20px;
-        line-height: 40px;
-}
-p{
-    font-size: 20px;
-    color:rgb(84, 82, 82)
-    
-}
-.button{
-    width:150px;
-    padding:10px;
-    font-size: 20px;
-    background-color: rgb(255, 123, 0);
-    margin:15px 0px 0px 50px  ;
-}
 .login{
     font-size: 17px;
     margin-left: 50px;
 }
-.specialfood{
-    display: flex;
-    margin-left: 200px;
+.howToPrepare{
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 325px;
 }
-.specialFood{
-    display: flex;
-    margin-left: 200px;
+.stars{
+    display:flex;
 }
-h2{
-    text-align: center;
+.foodName{
+    font-size: 30px;
+    line-height: 30px;
+    
+}
+.star{
+    width:25px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.review{
+    margin-top: 15px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+.experience{
+    width:800px;
+    font-size:18px;
+    line-height: 30px;
+}
+.icon{
+    width:15px;
+    height: 15px;
+    
+}
+.button{
+    padding:10px;
+    background-color:rgb(241, 69, 7);
+    font-size: 15px;
+    color: white;
+    width: 100px;
+    border: none;
+    margin-right: 3px;
+    margin-top: 20px;
+
+}
+.ratebutton{
+    padding:10px;
+    background-color:wheat;
+    font-size: 15px;
+    width: 100px;
+    border: none;
+    margin-right: 3px;
+    margin-top: 20px;
+
+}
+.sharebutton{
+    padding:10px;
+    background-color:wheat;
+    font-size: 15px;
+    width: 100px;
+    border: none;
+    margin-top: 20px;
+
+}
+.imageforhome{
+    
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    
+} 
+.timetaken{
+    width:800px;
+    height: 250px;
+    margin-top: 30px;
+    background-color: rgb(251, 239, 228);
+    
+    
+}
+.preptime{
+    margin-right: 130px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.time{
+    display: flex;
+    
+}
+.line{
+    color: rgb(126, 124, 124);
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.jump{
+    font-size: 16px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+.ingredients{
+    font-size: 30px;
+    margin-top: 40px;
+}
+li{
+    font-size: 16px;
+    line-height: 30px;
+}
+.step{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.lines{
+    line-height: 30px;
+}
+.facts{
+    font-size: 30px;
+    margin-top: 40px;
+    display: flex;
+}
+.nutrition{
+    text-decoration: none;
+    color: black;
+    font-size:16px ;
+}
+.reviewpart{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.addRate{
+    width: 800px;
+    height:1250px;
+    border:1px solid white;
+    background-color: beige;
     margin-top: 30px;
 }
-
-.allrecipes{
-    display: flex;
-    margin-left: 200px;
+.addReview{
+    width: 700px;
+    height:1150px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
 }
-.allRecipes{
-    display: flex;
-    margin-left: 200px;
+.ratingImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 300px;
+    margin-top: 50px;
 }
-.TrendingNow{
-    display: flex;
-    margin-left: 200px;
+.para{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
 }
-.Trendingnow{
+.addrating{
+    padding:15px;
+    background-color:rgb(241, 97, 7) ;
+    border:none;
+    color:white;
+    margin-left:260px;
+    margin-top: 20px;
+}
+.dp{
+    width:50px;
+    height: 50px;
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.profile{
     display: flex;
-    margin-left: 200px;
+}
+.name{
+    font-size: 16px;
+    margin-top: 35px;
+}
+.ratings{
+    margin-left: 30px;
+}
+.date{
+    
+    margin-left: 40px;
+    font-size: 15px;
+    margin-top: 38px;
+}
+.comments{
+    font-size: 17px;
+    margin-left: 30px;
+    line-height: 30px;
 }
 .footerpart{
     width:100%;
@@ -246,24 +376,3 @@ h2{
     margin-bottom: 20px;
     border-radius: 60px;
 }
-.specialRecipe{
-    width:300px;
-    height: 300px;
-    margin-right: 78px;
-}
-.foodName{
-    font-size: 25px;
-    line-height: 30px;
-}
-.line{
-    color:rgb(84, 82, 82);
-    line-height: 40px;
-    font-size: 18px;
-}
-.star{
-    width:25px;
-    height: 25px;
-    margin-bottom: 30px;
-    margin-top: 10px;
-}
-
