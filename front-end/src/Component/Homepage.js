@@ -100,7 +100,8 @@ function homepart()
                                     
                                 
                                 <div className="topics">About Us</div>
-                                    
+                                
+                                <div className="login">Login</div>   
                                 
                             </div>
                         </nav>
@@ -116,6 +117,135 @@ function homepart()
                         <button className="button">View All</button>
                     </div>
                 </div>
+                <h2>Area Special </h2>
+                
+                <div className="specialfood">
+                    <div className="foodImage">
+                        <img src="Resources/chole-bhature-del.jpg" alt="" className="specialRecipe"/>
+                        <p> Place:Delhi</p>
+                        <p>Recipe Name:chole-bhature-del</p>
+                    </div>
+                    <div className="foodImage">
+                        <img src="Resources/rasagulla.jpeg" alt="" className="specialRecipe"/>
+                        <p> Place:Kolkata</p>
+                        <p>Recipe Name:Rasagulla</p>
+                    </div>
+                    <div className="foodImage">
+                        <img src="Resources/LITTI CHOKHA2.JPG" alt="" className="specialRecipe"/>
+                        <p> Place:Patna</p>
+                        <p>Recipe Name:Litti Chokha</p>
+                    </div>
+                   
+                </div>
+                <div className="specialFood">
+                    <div className="foodimage">
+                        <img src="Resources/mysore-pak.jpeg" alt="" className="specialRecipe"/>
+                        <p> Place:Mysore</p>
+                        <p>Recipe Name:Mysore Pak</p> 
+                    </div>
+                   
+                    <div className="foodimage">
+                        <img src="Resources/biriyani.jpg" alt="" className="specialRecipe"/>
+                        <p> Place:Hyderabad</p>
+                        <p>Recipe Name:Dum Biryani</p> 
+                    </div>
+                    <div className="foodimage">
+                        <img src="Resources/meenFry.jpg" alt="" className="specialRecipe"/>
+                        <p> Place:Kochi</p>
+                        <p>Recipe Name:Mir</p> 
+                    </div>
+
+                </div>
+                <h2>Recipes</h2>
+                <div className="allRecipes">
+                    <div className="foodImage">
+                        <img src="Resources/Gujiya.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:Gujiya</p> 
+                    </div>
+                    <div className="foodImage">
+                        <img src="Resources/bombay-potatoes.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:Bombay Potatoes</p> 
+                    </div>
+                   
+                    <div className="foodImage">
+                        <img src="Resources/Mutton-Kofta.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:Mutton-Kofta</p> 
+                    </div>
+                </div>
+                <div className="allrecipes">
+                    <div className="foodimage">
+                        <img src="Resources/panipuri.jpeg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:Pani Puri</p> 
+                    </div>
+                    <div className="foodimage">
+                        <img src="Resources/putharekulu.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:Putharekulu</p> 
+                    </div>
+                    
+                    <div className="foodimage">
+                        <img src="Resources/kulfi.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:Kulfi</p> 
+                    </div>
+                </div>
+                <h2>Trending Now</h2>
+                <div className="TrendingNow">
+                    <div className="foodImage">
+                        <img src="Resources/Tacos.jpeg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:Tacos</p> 
+                    </div>
+                    
+                    <div className="foodImage">
+                        <img src="Resources/white-chocolate-cake.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:White Chocolate Cake</p> 
+                    </div>
+                    <div className="foodImage">
+                        <img src="Resources/fried-rice-soup.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:fried Rice Soup</p> 
+                    </div>
+                </div>
+                <div className="Trendingnow">
+                    <div className="foodimage">
+                        <img src="Resources/turkey-cranberry.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:turkey cranberry</p> 
+                    </div>
+                   
+                    <div className="foodimage">
+                        <img src="Resources/sandwich.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:Sandwich</p> 
+                    </div>
+                    <div className="foodimage">
+                        <img src="Resources/garlic-prawns.jpg" alt="" className="specialRecipe"/>
+                        <p>Recipe Name:Garlic Prawns</p> 
+                    </div>
+                </div>
+                <div className="footerpart">
+                    <div className="logopart">
+                        <img src="Resources/logo.png" alt="" className="footerimage"/>
+                        <input type="button"  value="Sign Up" className="sign"/>
+                    </div>
+                    <div className="listpart">
+                        <div className="types">Recipes</div>
+                        <div className="types">Popural Meals</div>
+                        <div className="types">Main Ingredients</div>
+                        <div className="types">Healthy Food</div>
+                    </div>
+                    <div className="listparts">
+                        <div className="types">Occation</div>
+                        <div className="types">Seasonal Food</div>
+                        <div className="types">About Us</div>
+                    </div>
+                </div>
+                <div className="border">
+                    <p className="follow">Follow Us</p>
+                    <div className="follow">
+                        <img src="Resources/google.png" className="followImg" alt=""/>
+                        <img src="Resources/facebook.png" className="followImg" alt=""/>
+                        <img src="Resources/insta.jpeg" className="followImg" alt=""/>
+                        <img src="Resources/twitter.jpeg" className="followImg" alt=""/>
+                    </div>
+
+                </div>
+    
                
             </div>
     );
