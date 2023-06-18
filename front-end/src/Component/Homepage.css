@@ -19,18 +19,16 @@
 }
 
 .topics{
-    margin-left:50px;
+    margin-left:35px;
     font-size: 17px;
     margin-bottom:10px;
 }
 .searchbar{
-    width:180px;
+    width:187px;
     height:30px;
     margin-left:700px;
     margin-top: 15px;
-    border-radius: 5px;
-    margin-right:3px;
-    border-color:white;
+    border: none;
     margin-bottom: 10px;
 }
 .firstContainer{
@@ -40,10 +38,9 @@
     display: flex;
 }
 .search{
-    width:40px;
-    height: 35px;
+    width:35px;
+    height: 32px;
     margin-top: 15px;
-    border-radius: 5px;
     margin-bottom: 10px;
 }
 
@@ -61,16 +58,21 @@
     font-size: 17px;
     border: none;
     background: none;
-    margin-left:195px;
+    margin-left:35px;
     margin-bottom:10px;
 
+  }
+  .homepg{
+    margin-left:200px;
+    margin-bottom:10px;
+    font-size: 17px;
   }
   .drop{
     color: rgb(7, 7, 7);
     font-size: 17px;
     border: none;
     background: none;
-    margin-left: 50px;
+    margin-left: 38px;
     margin-bottom:10px;
 
 
@@ -86,14 +88,14 @@
     position: absolute; 
     background-color: #f1f1f1; 
     min-width: 160px; 
-    margin-left: 190px;
+    margin-left: 40px;
   }
   .dropdownContent {
     display: none;
     position: absolute; 
     background-color: #f1f1f1; 
     min-width: 160px; 
-    margin-left: 50px;
+    margin-left: 40px;
   }
   .dropdown-content a {
     color: black;
@@ -155,7 +157,7 @@ p{
 }
 .login{
     font-size: 17px;
-    margin-left: 50px;
+    margin-left: 35px;
 }
 .specialfood{
     display: flex;

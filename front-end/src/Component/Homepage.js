@@ -15,7 +15,7 @@ function homepart()
                                 <img src="Resources/loginLogo.jpeg" alt="" className="loginlogo"/>
                             </div>
                             <div className="secondContainer">
-                                
+                                <div className="homepg">Home</div>
                                 <div class="dropdown">
                                     <button class="dropbtn">Recipes</button>
                                     <div class="dropdown-content">
@@ -144,7 +144,7 @@ function homepart()
                     <div className="foodImage">
                         <img src="Resources/LITTI CHOKHA2.JPG" alt="" className="specialRecipe"/>
                         <div className="line">Patna special Litti Chokha</div>
-                        <div className="fooName"><b>Litti Chokha</b></div>
+                        <div className="foodName"><b>Litti Chokha</b></div>
                         <img src="Resources/star.png " alt="" className="star"/>
                         <img src="Resources/star.png " alt="" className="star"/>
                         <img src="Resources/star.png " alt="" className="star"/>

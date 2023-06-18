@@ -1,6 +1,6 @@
 .image
 {
-    width:50px;
+    width: 50px;
     height:50px;
     border-radius: 40px;
     margin: 6px 0px 5px 200px;
@@ -13,13 +13,8 @@
     left:0;
 }
 
-.navbar{
-   
-    border:1px solid black;
-}
-
 .topics{
-    margin-left:50px;
+    margin-left:38px;
     font-size: 17px;
     margin-bottom:10px;
 }
@@ -28,8 +23,8 @@
     height:30px;
     margin-left:700px;
     margin-top: 15px;
-    border-radius: 5px;
-    margin-right:3px;
+    border: none;
+
     border-color:white;
     margin-bottom: 10px;
 }
@@ -40,10 +35,10 @@
     display: flex;
 }
 .search{
-    width:40px;
-    height: 35px;
+    width:38px;
+    height: 32px;
     margin-top: 15px;
-    border-radius: 5px;
+
     margin-bottom: 10px;
 }
 
@@ -61,16 +56,21 @@
     font-size: 17px;
     border: none;
     background: none;
-    margin-left:195px;
+    margin-left:35px;
     margin-bottom:10px;
 
+  }
+  .homepg{
+    margin-left: 205px;
+    font-size: 17px;
+    margin-bottom:10px;
   }
   .drop{
     color: rgb(7, 7, 7);
     font-size: 17px;
     border: none;
     background: none;
-    margin-left: 50px;
+    margin-left: 35px;
     margin-bottom:10px;
 
 
@@ -86,14 +86,14 @@
     position: absolute; 
     background-color: #f1f1f1; 
     min-width: 160px; 
-    margin-left: 190px;
+    margin-left: 40px;
   }
   .dropdownContent {
     display: none;
     position: absolute; 
     background-color: #f1f1f1; 
     min-width: 160px; 
-    margin-left: 50px;
+    margin-left: 30px;
   }
   .dropdown-content a {
     color: black;
@@ -122,7 +122,7 @@
   
 .login{
     font-size: 17px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .howToPrepare{
     width: 800px;
@@ -301,15 +301,17 @@ li{
 .name{
     font-size: 16px;
     margin-top: 35px;
+    margin-left: 10px;
 }
 .ratings{
     margin-left: 30px;
 }
 .date{
     
-    margin-left: 40px;
+    margin-left: 450px;
     font-size: 15px;
     margin-top: 38px;
+    
 }
 .comments{
     font-size: 17px;
@@ -321,7 +323,7 @@ li{
     height:50%;
     background-color:rgb(220, 164, 11);
     margin-top: 70px;
-    /* margin-bottom: 50px; */
+    
     display: flex;
 }
 .footerimage{
