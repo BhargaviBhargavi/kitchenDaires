@@ -5,8 +5,11 @@ import React from "react";
 // import Login from './Component/Login';
 // import ForgotPassword from './Component/ForgotPassword';
 // import HomePage from './Component/HomePage';
-import Homepage from "./Component/Homepage";
+ //import Homepage from "./Component/Homepage";
 //import Preparationpage from "./Component/Preparationpage";
+import Backend from "./Component/BackEnd";
+//import Onedata from "./Component/OneData";
+
 function App() {
   return(
     <div className="App">
@@ -16,8 +19,11 @@ function App() {
              <Login/>   
             <ForgotPassword/>*/}
             {/* <HomePage/> */}
-              <Homepage/>    
-             {/* <Preparationpage/>   */}
+               {/* <Homepage/>      */}
+              {/* <Preparationpage/>     */}
+                <Backend />   
+                
+
     </div>
   );
 }
