@@ -1,10 +1,16 @@
 .images{
     width: 300px;
     height: 300px;
-    /* border-radius: 20px; */
     border: 1px solid orange;
-    
-    margin: auto;
+}
+.recipe{
+    width: 300px;
+    height: 450px;
+    border: 1px solid orange;
+    margin-bottom: 30px;
+     padding:10px ; 
+    margin-left: 40px;
+    margin-right: 0px;
 }
 .recipes{
     display: flex;
@@ -12,17 +18,13 @@
     width: 80%;
     height: 100%;
     margin-left:160px;
-
-
-
 }
-.recipe{
-    margin-bottom: 60px;
-    margin-left: 40px;
-    border: 1px solid orange;
-    margin-right: 0px;
-    padding:10px;
+.name{
     
+    font-size: 22px;
+}
+b{
+    margin-right: 10px;
 }
 .heading{
     text-align: center;
@@ -153,100 +155,86 @@
     font-size: 17px;
     margin-left: 35px;
     }
-    .name{
-      font-size: 22px;
-    }
-    .recipeName{
-      line-height: 8px;
-    }
-    b{
-      margin-right: 10px;
-    }
-    .clear{
-      text-align: center;
-      color: rgb(255, 136, 0);
-      font-size: 20px;
-    }
     .footerpart{
-      width:100%;
-      height:50%;
-      background-color:rgb(220, 164, 11);
-      margin-top: 70px;
-      /* margin-bottom: 50px; */
-      display: flex;
-  }
-  .footerimage{
-      width:100px;
-      height: 100px;
-      margin:45px 0px  20px 80px;
-      border-radius: 50px;
-      
-  }
-  .logopart{
-      width:250px;
-      height: 200px;
-      margin-left: 250px;
-      margin-bottom: 30px;
-  }
-  .sign{
-      width: 150px;
-      padding: 10px;
-      margin-left: 55px;
-      
-  }
-  .listpart{
-      margin-top: 58px;
-      margin-left: 200px;
-  }
-  .types{
-      margin-bottom: 20px;
-  }
-  .listparts{
-      margin-top: 68px;
-      margin-left: 200px;
-  }
-  .border{
-      width: 99.89%;
-      border: 1px solid black;
-      background-color:rgb(220, 164, 11);
-      
-  
-  }
-  .followus{
-      background-color:rgb(220, 164, 11);
-      opacity: 0.3;
-      
-  }
-  .follow{
-      text-align: center;
-      color:black;
-  }
-  .followImg{
-      width: 50px;
-      height: 50px;
-      margin-left: 50px;
-      margin-bottom: 20px;
-      border-radius: 60px;
-  }
-  .specialRecipe{
-      width:300px;
-      height: 300px;
-      margin-right: 78px;
-  }
-  .foodName{
-      font-size: 25px;
-      line-height: 30px;
-  }
-  .line{
-      color:rgb(84, 82, 82);
-      line-height: 40px;
-      font-size: 18px;
-  }
-  .star{
-      width:25px;
-      height: 25px;
-      margin-bottom: 30px;
-      margin-top: 10px;
-  }
-  
-  
+        width:100%;
+        height:50%;
+        background-color:rgb(220, 164, 11);
+        margin-top: 70px;
+        /* margin-bottom: 50px; */
+        display: flex;
+    }
+    .footerimage{
+        width:100px;
+        height: 100px;
+        margin:45px 0px  20px 80px;
+        border-radius: 50px;
+        
+    }
+    .logopart{
+        width:250px;
+        height: 200px;
+        margin-left: 250px;
+        margin-bottom: 30px;
+    }
+    .sign{
+        width: 150px;
+        padding: 10px;
+        margin-left: 55px;
+        
+    }
+    .listpart{
+        margin-top: 58px;
+        margin-left: 200px;
+    }
+    .types{
+        margin-bottom: 20px;
+    }
+    .listparts{
+        margin-top: 68px;
+        margin-left: 200px;
+    }
+    .border{
+        width: 99.89%;
+        border: 1px solid black;
+        background-color:rgb(220, 164, 11);
+        
+    
+    }
+    .followus{
+        background-color:rgb(220, 164, 11);
+        opacity: 0.3;
+        
+    }
+    .follow{
+        text-align: center;
+        color:black;
+    }
+    .followImg{
+        width: 50px;
+        height: 50px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        border-radius: 60px;
+    }
+    .specialRecipe{
+        width:300px;
+        height: 300px;
+        margin-right: 78px;
+    }
+    .foodName{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .line{
+        color:rgb(84, 82, 82);
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .star{
+        width:25px;
+        height: 25px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    
+    

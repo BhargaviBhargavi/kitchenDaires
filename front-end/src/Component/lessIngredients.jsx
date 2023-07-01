@@ -1,12 +1,12 @@
 import React from "react";
 
 import { useEffect, useState } from "react";
-import './backEnd.css';
+import './lessIngredients.css';
 
 
-const Backend = () => {
+const LessIngredients = () => {
     const [data, setrecipeData] = useState([]);
-    const [recipeData,setData]= useState('');
+    //const [recipeData,setData]= useState('');
 
     useEffect(()=> {
         fetchData();
@@ -15,44 +15,25 @@ const Backend = () => {
     },[])
 
     const fetchData = () =>{
-        fetch("http://localhost:5055/data").then((res)=>{
+        fetch("http://localhost:5050/information").then((res)=>{
             return res.json();
         }).then((res)=>{
             setrecipeData(res);
             console.log(res);
         })
     }
-    const searchrecipedata = () =>{
-        fetch(`http://localhost:5055/search/${recipeData}`).then((res)=>{
-            return res.json();
-        }).then((res)=>{
-            setrecipeData(res);
-            console.log(res);
-
-        })
-    }
-
-    const recipechange =(event) =>{
-        setData(event.target.value);
-    }
-    function clearData(){
-        setData("");
-    }
-    
-
     return (<div>
-
-            <div className="home">
+                    <div className="home">
                 <div className="firstpage">
                     <div className="nav">
                         <nav className="navbar">
                             <div className="firstContainer">
                                 <img src="Resources/logo.png" alt="" className="image"/>
                                 <div>
-                                <input type="text" className="searchbar" placeholder="Search here" value={recipeData} onChange={recipechange}/>
+                                <input type="text" className="searchbar" placeholder="Search here" />
                                 
                                 </div>
-                                <img src="Resources/searchbar1.png" alt="" className="search" onClick={clearData}/>
+                                <img src="Resources/searchbar1.png" alt="" className="search" />
 
                                 <img src="Resources/loginLogo.jpeg" alt="" className="loginlogo"/>
                             </div>
@@ -143,28 +124,23 @@ const Backend = () => {
                 </div>
             </div>
        
-        <div className="heading"><h1>Recipes</h1></div>
+        <div className="heading"><h1> Less Ingredients Recipes</h1></div>
         
         <div className="recipes">
-        {
+            {
+                    
+                data.map(({Image,RecipeName,Rating}) => <div>
+                    <div className="recipe">
+                        <div><img src={Image} alt="" className="images"/></div>
+                        <div className="recipeName"><h2>{RecipeName}</h2></div>
+                        <div className="name"><b>Rating:</b>{Rating}</div>
+                    </div>
             
-            (data.filter(function (e) {
-                if (e.RecipeName.toLocaleLowerCase().includes(recipeData.toLocaleLowerCase())) {
-                    return data;
-                }
-            }).map(({Image, RecipeName,Rating }) =>
-             <div>
-                <div className="recipe">
-                    <div><img src={Image} alt="" className="images"/></div>
-                    <div className="recipeName"><h2>{RecipeName}</h2></div>
-                    <div className="name"><b>Rating:</b>{Rating}</div>
-                </div>
-        
-            </div>))
-            
-        }
-        </div>
-        <div className="footerpart">
+                </div>)
+                
+            }
+            </div>
+                    <div className="footerpart">
                     <div className="logopart">
                         <img src="Resources/logo.png" alt="" className="footerimage"/>
                         <input type="button"  value="Sign Up" className="sign"/>
@@ -191,6 +167,8 @@ const Backend = () => {
                     </div>
 
                 </div>
+    
+        
     </div>)
 }
-export default Backend;
+export default LessIngredients;
