@@ -15,7 +15,7 @@ const Backend = () => {
     },[])
 
     const fetchData = () =>{
-        fetch("http://localhost:5055/data").then((res)=>{
+        fetch("http://localhost:5050/data").then((res)=>{
             return res.json();
         }).then((res)=>{
             setrecipeData(res);
@@ -23,7 +23,7 @@ const Backend = () => {
         })
     }
     const searchrecipedata = () =>{
-        fetch(`http://localhost:5055/search/${recipeData}`).then((res)=>{
+        fetch(`http://localhost:5050/search/${recipeData}`).then((res)=>{
             return res.json();
         }).then((res)=>{
             setrecipeData(res);
@@ -48,10 +48,8 @@ const Backend = () => {
                         <nav className="navbar">
                             <div className="firstContainer">
                                 <img src="Resources/logo.png" alt="" className="image"/>
-                                <div>
+                        
                                 <input type="text" className="searchbar" placeholder="Search here" value={recipeData} onChange={recipechange}/>
-                                
-                                </div>
                                 <img src="Resources/searchbar1.png" alt="" className="search" onClick={clearData}/>
 
                                 <img src="Resources/loginLogo.jpeg" alt="" className="loginlogo"/>

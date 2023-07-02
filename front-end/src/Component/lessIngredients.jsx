@@ -6,7 +6,7 @@ import './lessIngredients.css';
 
 const LessIngredients = () => {
     const [data, setrecipeData] = useState([]);
-    //const [recipeData,setData]= useState('');
+    const [lessrecipeData,setData]= useState('');
 
     useEffect(()=> {
         fetchData();
@@ -22,6 +22,23 @@ const LessIngredients = () => {
             console.log(res);
         })
     }
+    const searchrecipedata = () =>{
+        fetch(`http://localhost:5050/search/${lessrecipeData}`).then((res)=>{
+            return res.json();
+        }).then((res)=>{
+            setrecipeData(res);
+            console.log(res);
+
+        })
+    }
+    const recipechange =(event) =>{
+        setData(event.target.value);
+    }
+    function clearData(){
+        setData("");
+    }
+    
+
     return (<div>
                     <div className="home">
                 <div className="firstpage">
@@ -29,12 +46,8 @@ const LessIngredients = () => {
                         <nav className="navbar">
                             <div className="firstContainer">
                                 <img src="Resources/logo.png" alt="" className="image"/>
-                                <div>
-                                <input type="text" className="searchbar" placeholder="Search here" />
-                                
-                                </div>
-                                <img src="Resources/searchbar1.png" alt="" className="search" />
-
+                                <input type="text" className="searchbar" placeholder="Search here" value={lessrecipeData} onChange={recipechange}/>
+                                <img src="Resources/searchbar1.png" alt="" className="search" onClick={clearData}/>
                                 <img src="Resources/loginLogo.jpeg" alt="" className="loginlogo"/>
                             </div>
                             <div className="secondContainer">
@@ -129,14 +142,20 @@ const LessIngredients = () => {
         <div className="recipes">
             {
                     
-                data.map(({Image,RecipeName,Rating}) => <div>
+                            
+            (data.filter(function (e) {
+                if (e.RecipeName.toLocaleLowerCase().includes(lessrecipeData.toLocaleLowerCase())) {
+                    return data;
+                }
+            }).map(({Image, RecipeName,Rating }) =>
+            <div>
                     <div className="recipe">
                         <div><img src={Image} alt="" className="images"/></div>
                         <div className="recipeName"><h2>{RecipeName}</h2></div>
                         <div className="name"><b>Rating:</b>{Rating}</div>
                     </div>
             
-                </div>)
+                </div>))
                 
             }
             </div>
