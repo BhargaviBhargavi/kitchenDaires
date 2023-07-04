@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+
+//import './App.css';
+import React from "react";
+// import SignUp from './Component/SignUp';
+// import Login from './Component/Login';
+// import ForgotPassword from './Component/ForgotPassword';
+// import HomePage from './Component/HomePage';
+ //import Homepage from "./Component/Homepage";
+//import Preparationpage from "./Component/Preparationpage";
+import Backend from "./Component/BackEnd";
+//import Onedata from "./Component/OneData";
 
 function App() {
-  return (
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+            {/* <SignUp/> */}
+             {/* <Login/>  
+           <SignUp/>
+             <Login/>   
+            <ForgotPassword/>*/}
+            {/* <HomePage/> */}
+               {/* <Homepage/>      */}
+              {/* <Preparationpage/>     */}
+                <Backend />   
+                
+
     </div>
   );
 }
 
 export default App;
+

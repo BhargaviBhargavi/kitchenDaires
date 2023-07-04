@@ -1,0 +1,380 @@
+.image
+{
+    width: 50px;
+    height:50px;
+    border-radius: 40px;
+    margin: 6px 0px 5px 200px;
+}
+.nav{
+    background-color:rgb(220, 164, 11);
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.topics{
+    margin-left:38px;
+    font-size: 17px;
+    margin-bottom:10px;
+}
+.searchbar{
+    width:180px;
+    height:30px;
+    margin-left:700px;
+    margin-top: 15px;
+    border: none;
+
+    border-color:white;
+    margin-bottom: 10px;
+}
+.firstContainer{
+    display: flex;
+}
+.secondContainer{
+    display: flex;
+}
+.search{
+    width:38px;
+    height: 32px;
+    margin-top: 15px;
+
+    margin-bottom: 10px;
+}
+
+.loginlogo{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    margin-top:6px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.dropbtn {
+    color: rgb(7, 7, 7);
+    font-size: 17px;
+    border: none;
+    background: none;
+    margin-left:35px;
+    margin-bottom:10px;
+
+  }
+  .homepg{
+    margin-left: 205px;
+    font-size: 17px;
+    margin-bottom:10px;
+  }
+  .drop{
+    color: rgb(7, 7, 7);
+    font-size: 17px;
+    border: none;
+    background: none;
+    margin-left: 35px;
+    margin-bottom:10px;
+
+
+  }
+  
+   .dropdown {
+    position: relative;
+    display: inline-block;
+  } 
+  
+  .dropdown-content {
+    display: none;
+    position: absolute; 
+    background-color: #f1f1f1; 
+    min-width: 160px; 
+    margin-left: 40px;
+  }
+  .dropdownContent {
+    display: none;
+    position: absolute; 
+    background-color: #f1f1f1; 
+    min-width: 160px; 
+    margin-left: 30px;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    font-size: 15px;
+     
+     
+  }
+  .dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    font-size: 15px;
+     
+     
+  }
+  
+  
+   .dropdown-content a:hover {background-color: #ddd;} 
+   .dropdownContent a:hover {background-color: #ddd}
+   .dropdown:hover .dropdown-content {display: block;} 
+   .dropdown:hover .dropdownContent  {display: block;}
+  
+.login{
+    font-size: 17px;
+    margin-left: 40px;
+}
+.howToPrepare{
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 325px;
+}
+.stars{
+    display:flex;
+}
+.foodName{
+    font-size: 30px;
+    line-height: 30px;
+    
+}
+.star{
+    width:25px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.review{
+    margin-top: 15px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+.experience{
+    width:800px;
+    font-size:18px;
+    line-height: 30px;
+}
+.icon{
+    width:15px;
+    height: 15px;
+    
+}
+.button{
+    padding:10px;
+    background-color:rgb(241, 69, 7);
+    font-size: 15px;
+    color: white;
+    width: 100px;
+    border: none;
+    margin-right: 3px;
+    margin-top: 20px;
+
+}
+.ratebutton{
+    padding:10px;
+    background-color:wheat;
+    font-size: 15px;
+    width: 100px;
+    border: none;
+    margin-right: 3px;
+    margin-top: 20px;
+
+}
+.sharebutton{
+    padding:10px;
+    background-color:wheat;
+    font-size: 15px;
+    width: 100px;
+    border: none;
+    margin-top: 20px;
+
+}
+.imageforhome{
+    
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    
+} 
+.timetaken{
+    width:800px;
+    height: 250px;
+    margin-top: 30px;
+    background-color: rgb(251, 239, 228);
+    
+    
+}
+.preptime{
+    margin-right: 130px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.time{
+    display: flex;
+    
+}
+.line{
+    color: rgb(126, 124, 124);
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.jump{
+    font-size: 16px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+.ingredients{
+    font-size: 30px;
+    margin-top: 40px;
+}
+li{
+    font-size: 16px;
+    line-height: 30px;
+}
+.step{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.lines{
+    line-height: 30px;
+}
+.facts{
+    font-size: 30px;
+    margin-top: 40px;
+    display: flex;
+}
+.nutrition{
+    text-decoration: none;
+    color: black;
+    font-size:16px ;
+}
+.reviewpart{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.addRate{
+    width: 800px;
+    height:1250px;
+    border:1px solid white;
+    background-color: beige;
+    margin-top: 30px;
+}
+.addReview{
+    width: 700px;
+    height:1150px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.ratingImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.para{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.addrating{
+    padding:15px;
+    background-color:rgb(241, 97, 7) ;
+    border:none;
+    color:white;
+    margin-left:260px;
+    margin-top: 20px;
+}
+.dp{
+    width:50px;
+    height: 50px;
+    margin-left:30px ;
+    margin-top: 20px;
+}
+.profile{
+    display: flex;
+}
+.name{
+    font-size: 16px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.ratings{
+    margin-left: 30px;
+}
+.date{
+    
+    margin-left: 450px;
+    font-size: 15px;
+    margin-top: 38px;
+    
+}
+.comments{
+    font-size: 17px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+.footerpart{
+    width:100%;
+    height:50%;
+    background-color:rgb(220, 164, 11);
+    margin-top: 70px;
+    
+    display: flex;
+}
+.footerimage{
+    width:100px;
+    height: 100px;
+    margin:45px 0px  20px 80px;
+    border-radius: 50px;
+    
+}
+.logopart{
+    width:250px;
+    height: 200px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+}
+.sign{
+    width: 150px;
+    padding: 10px;
+    margin-left: 55px;
+    
+}
+.listpart{
+    margin-top: 58px;
+    margin-left: 200px;
+}
+.types{
+    margin-bottom: 20px;
+}
+.listparts{
+    margin-top: 68px;
+    margin-left: 200px;
+}
+.border{
+    width: 99.89%;
+    border: 1px solid black;
+    background-color:rgb(220, 164, 11);
+    
+
+}
+.followus{
+    background-color:rgb(220, 164, 11);
+    opacity: 0.3;
+    
+}
+.follow{
+    text-align: center;
+}
+.followImg{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 60px;
+}
